@@ -1,0 +1,54 @@
+main{
+    width: 940px;
+    margin: 0 auto;
+
+
+}
+
+form {
+   
+     margin: 40px 0;
+    
+}
+form input, textarea{
+    display: block;
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.radio{
+ display: inline-block;
+ width: auto;
+
+
+}
+
+form label, form fieldset{
+     margin-top: 10px;
+    display: block;
+    font-size: 20px;
+}
+
+.enviar{
+
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px ;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+
+    background-color: tomato;
+    transform: rotate(360deg)   scale(1.9);
+    text-transform: uppercase;
+
+
+
+
+}
